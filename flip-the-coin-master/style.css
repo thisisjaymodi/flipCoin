@@ -1,0 +1,43 @@
+/* You are welcome to delete these styles or modify them in your own stylesheet */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #404a65;
+  -webkit-text-fill-color: #ecedf0;
+}
+
+body {
+  height: 100vh;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: 1px solid #1F6FB0; 
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #1F6FB0;
+  transition: all 0.2s ease; 
+}
+
+.btn:active {
+  transform: scale(0.97); 
+  background-color: #1F6FB0;
+}
+
+.main_heading {
+  -webkit-text-stroke: 1px black;
+}
